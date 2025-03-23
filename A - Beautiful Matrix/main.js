@@ -25,13 +25,13 @@ function main() {
   let n = [];
   for (let i = 0; i < 5; i++) {
     n.push(readline().split(" ").map(Number));
-    }
-    for (let i = 0;i<5;i++){
-      for (let j = 0;j<5;j++){
-        if (n[i][j] == 1){
-          print(Math.abs(i-2)+Math.abs(j-2));
-          break;
-        }
+  }
+  for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 5; j++) {
+      if (n[i][j] == 1) {
+        print(Math.abs(i - 2) + Math.abs(j - 2));
+        break;
       }
     }
+  }
 }
